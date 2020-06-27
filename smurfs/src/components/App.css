@@ -1,3 +1,78 @@
+body {
+  background-color: grey;
+}
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2rem;
+  color: black;
+}
+
+.smurfList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.smurfs {
+  border: 5px ridge #42484a;
+  border-radius: 40px 39px 12px 16px;
+  width: 20rem;
+  background-color: grey;
+}
+
+input {
+  padding: 6px;
+  font-size: 15px;
+  border-width: 3px;
+  border-color: grey;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-style: solid;
+  border-radius: 25px;
+  box-shadow: 0px 0px 11px rgba(66, 66, 66, 0.75);
+  text-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+}
+input:focus {
+  outline: none;
+}
+
+h4 {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+}
+
+button {
+  box-shadow: inset 0px 0px 11px 0px #505050;
+  background: linear-gradient(to bottom, #a0a0a0 5%, #000000 100%);
+  background-color: #fefeff;
+  border-radius: 22px;
+  border: 2px solid #777777;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 4px 0px #5a5a5a;
+}
+button:hover {
+  background: linear-gradient(to bottom, #0b0c0e 5%, #979797 100%);
+  background-color: #ffffff;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
 }
